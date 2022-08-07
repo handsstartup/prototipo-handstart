@@ -121,7 +121,7 @@
 .contact .field label {
   text-align: justify;
 }
-.contact .field .check {
+.contact .field #check {
   width: 20px;
   height: 20px;
   margin-right: 5px;
