@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/******************** 
+        HEADER
+*********************/
 .header {
   background-image: url("/app/assets/images/capa.png");
   background-size: cover;
@@ -27,11 +30,37 @@
   font-weight: 500;
 }
 
+/******************** 
+    Nossa Equipe
+*********************/
+.our-team {
+  background-color: #fab728;
+}
+.our-team .title {
+  letter-spacing: 10px;
+}
+.our-team img {
+  width: 10em;
+  border-radius: 50%;
+}
+.our-team .content {
+  font-weight: 500;
+}
+
+.teste {
+  border: 3px solid black;
+}
+
 .mx-auto {
   margin-right: auto !important;
   margin-left: auto !important;
 }
 
-.teste {
-  border: 3px solid black;
+@media (max-width: 576px) {
+  .mob-details {
+    flex-direction: column;
+  }
+  .mob-details .video {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

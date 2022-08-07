@@ -8,6 +8,10 @@ $bg-yellow: $color-yellow;
 $bg-black: $color-black;
 $bg-white: $color-white;
 
+/******************** 
+        HEADER
+*********************/
+
 .header {
     background-image: url("/app/assets/images/capa.png");
     background-size: cover;
@@ -30,7 +34,7 @@ $bg-white: $color-white;
     }
     .details {
         .video {
-            border-radius: 10px
+            border-radius: 10px;
         }
         p {
             font-weight: 500;
@@ -38,12 +42,52 @@ $bg-white: $color-white;
     }
 }
 
-.mx-auto {
-    margin-right: auto !important;
-    margin-left: auto !important;
+/******************** 
+    Nossa Equipe
+*********************/
+
+.our-team {
+    background-color: $bg-yellow;
+    .title {
+        letter-spacing: 10px;
+    }
+    img {
+        width: 10em;
+        border-radius: 50%;
+    }
+    .content {
+        font-weight: 500;
+    }
 }
 
 .teste {
     border: 3px solid black;
     // background-color: brown;
 }
+
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+@media (max-width: 576px) {
+    .mob-details {
+        flex-direction: column;
+        .video {
+            width: 100%
+            
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {  }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {  }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) {  }
