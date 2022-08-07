@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+$color-yellow: #fab728;
+$color-black: #1d1d1b;
+$color-white: #ffffff;
+
+$bg-yellow: $color-yellow;
+$bg-black: $color-black;
+$bg-white: $color-white;
+
+.header {
+    background-image: url("/app/assets/images/capa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: calc(100vh);
+    .proposal {
+        height: 40vh;
+        .title-wrap-1 {
+            background-color: $color-white;
+            border-radius: 10px;
+            line-height: 1.8em;
+            padding: 0 5px;
+        }
+        .title-wrap-2 {
+            background-color: $color-white;
+            border-radius: 10px;
+            padding: 0 5px;
+        }
+    }
+    .details {
+        .video {
+            border-radius: 10px
+        }
+        p {
+            font-weight: 500;
+        }
+    }
+}
+
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.teste {
+    border: 3px solid black;
+    // background-color: brown;
+}
