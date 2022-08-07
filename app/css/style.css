@@ -27,29 +27,62 @@
 }
 .header .details p {
   font-weight: 500;
+  text-align: justify;
 }
 
 /******************** 
-    Nossa Equipe
+    SECTION - TEAM
 *********************/
 .our-team {
   background-color: #fab728;
+  padding: 3rem 0;
 }
 .our-team .title {
   letter-spacing: 10px;
+  margin-bottom: 2rem;
 }
-.our-team img {
+.our-team .personal {
   width: 10em;
   border-radius: 50%;
 }
 .our-team .content {
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 26px;
+  margin: 5rem 0;
+}
+.our-team .fatores .icon {
+  width: 200px;
+}
+.our-team .member {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.our-team .our-team-end {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 5rem 0;
+}
+.our-team .our-team-end .reduce {
+  max-width: 240px;
+  margin: 1rem 0;
+}
+.our-team .our-team-end .reduce img {
+  width: 200px;
+}
+.our-team .our-team-end .text--right {
+  width: 205px;
+  float: right;
+  font-size: 20px;
+}
+.our-team .our-team-end .text--left {
+  width: 270px;
+  float: left;
 }
 
-.teste {
-  border: 3px solid black;
-}
-
+/******************** 
+    MEDIA QUERY
+*********************/
 .mx-auto {
   margin-right: auto !important;
   margin-left: auto !important;
@@ -61,5 +94,13 @@
   }
   .mob-details .video {
     width: 100%;
+  }
+  .our-team-end {
+    flex-direction: column;
+  }
+  .our-team-end .fix-end {
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
   }
 }/*# sourceMappingURL=style.css.map */
