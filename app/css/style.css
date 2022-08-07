@@ -81,6 +81,53 @@
 }
 
 /******************** 
+    SECTION - OUR SERVICES
+*********************/
+.our-services {
+  background-color: #ffffff;
+  padding: 3rem 0;
+}
+.our-services .title {
+  letter-spacing: 10px;
+  margin-bottom: 2rem;
+}
+.our-services img {
+  width: 200px;
+}
+
+/******************** 
+    SECTION - CONTACT
+*********************/
+.contact {
+  background-color: #fab728;
+  padding: 3rem 0;
+}
+.contact p {
+  text-align: justify;
+  font-weight: 700;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+.contact .field {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.contact .field input {
+  width: 100%;
+}
+.contact .field label {
+  text-align: justify;
+}
+.contact .field .check {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+/******************** 
     MEDIA QUERY
 *********************/
 .mx-auto {
@@ -102,5 +149,8 @@
     display: flex;
     justify-content: center;
     text-align: center !important;
+  }
+  .contact .mb-contact {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
