@@ -55,7 +55,12 @@
 }
 .our-team .member {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.our-team .member span {
+  height: 2.6em;
+  display: flex;
   align-items: center;
 }
 .our-team .our-team-end {
