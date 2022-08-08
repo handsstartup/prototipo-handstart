@@ -3,7 +3,7 @@
         HEADER
 *********************/
 .header {
-  background-image: url("/app/assets/images/capa.png");
+  background-image: url("/app/assets/images/capa.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
