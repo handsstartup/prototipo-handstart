@@ -63,6 +63,11 @@
   display: flex;
   align-items: center;
 }
+.our-team .member .linkedin {
+  height: 2.6em;
+  display: flex;
+  align-items: center;
+}
 .our-team .our-team-end {
   font-size: 16px;
   font-weight: 600;
