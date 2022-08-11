@@ -9,17 +9,29 @@ $bg-black: $color-black;
 $bg-white: $color-white;
 
 /******************** 
-        HEADER
+    HEADER - MAIN
 *********************/
-
 .header {
   background-image: url("/app/assets/images/capa.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   // height: calc(120vh);
-  .proposal {
-    height: 40vh;
+  // .proposal {
+  //   // height: 40vh;
+  //   .title-wrap-1 {
+  //     background-color: $color-white;
+  //     border-radius: 10px;
+  //     line-height: 1.8em;
+  //     padding: 0 5px;
+  //   }
+  //   .title-wrap-2 {
+  //     background-color: $color-white;
+  //     border-radius: 10px;
+  //     padding: 0 5px;
+  //   }
+  // }
+  .main {
     .title-wrap-1 {
       background-color: $color-white;
       border-radius: 10px;
@@ -31,8 +43,6 @@ $bg-white: $color-white;
       border-radius: 10px;
       padding: 0 5px;
     }
-  }
-  .details {
     .video {
       border-radius: 10px;
     }
@@ -46,7 +56,6 @@ $bg-white: $color-white;
 /******************** 
     SECTION - TEAM
 *********************/
-
 .our-team {
   background-color: $bg-yellow;
   padding: 3rem 0;
@@ -61,7 +70,10 @@ $bg-white: $color-white;
   .content {
     font-weight: 700;
     font-size: 26px;
-    margin: 5rem 0;
+    margin: 3rem 0;
+    .video {
+      border-radius: 10px;
+    }
   }
   .fatores {
     .icon {
@@ -119,12 +131,14 @@ $bg-white: $color-white;
   img {
     width: 200px;
   }
+  .video {
+    border-radius: 10px;
+  }
 }
 
 /******************** 
     SECTION - CONTACT
 *********************/
-
 .contact {
   background-color: $bg-yellow;
   padding: 3rem 0;
@@ -157,25 +171,44 @@ $bg-white: $color-white;
 /******************** 
     MEDIA QUERY
 *********************/
-
-.mx-auto {
-  margin-right: auto !important;
-  margin-left: auto !important;
-}
-
 @media (max-width: 576px) {
-  .mob-details {
-    flex-direction: column;
-    .video {
-      width: 100%;
+  .main {
+    h1 {
+      text-align: center;
+      .title-wrap-1 {
+        font-size: 0.6em;
+      }
+      .title-wrap-2 {
+        font-size: 0.6em;
+      }
+    }
+    .mob-main {
+      flex-direction: column;
+      .video {
+        width: 100%;
+      }
     }
   }
-  .our-team-end {
-    flex-direction: column;
-    .fix-end {
-      display: flex;
-      justify-content: center;
-      text-align: center !important;
+
+  .our-team {
+    .content {
+      .video {
+        width: 100%;
+      }
+    }
+    .our-team-end {
+      flex-direction: column;
+      .fix-end {
+        display: flex;
+        justify-content: center;
+        text-align: center !important;
+      }
+    }
+  }
+
+  .our-services {
+    .video {
+      width: 100%;
     }
   }
 
@@ -196,4 +229,9 @@ $bg-white: $color-white;
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (max-width: 1400px) {
+}
+
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
 }

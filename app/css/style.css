@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 /******************** 
-        HEADER
+    HEADER - MAIN
 *********************/
 .header {
   background-image: url("/app/assets/images/capa.webp");
@@ -8,24 +8,21 @@
   background-repeat: no-repeat;
   background-position: top;
 }
-.header .proposal {
-  height: 40vh;
-}
-.header .proposal .title-wrap-1 {
+.header .main .title-wrap-1 {
   background-color: #ffffff;
   border-radius: 10px;
   line-height: 1.8em;
   padding: 0 5px;
 }
-.header .proposal .title-wrap-2 {
+.header .main .title-wrap-2 {
   background-color: #ffffff;
   border-radius: 10px;
   padding: 0 5px;
 }
-.header .details .video {
+.header .main .video {
   border-radius: 10px;
 }
-.header .details p {
+.header .main p {
   font-weight: 500;
   text-align: justify;
 }
@@ -48,7 +45,10 @@
 .our-team .content {
   font-weight: 700;
   font-size: 26px;
-  margin: 5rem 0;
+  margin: 3rem 0;
+}
+.our-team .content .video {
+  border-radius: 10px;
 }
 .our-team .fatores .icon {
   width: 200px;
@@ -104,6 +104,9 @@
 .our-services img {
   width: 200px;
 }
+.our-services .video {
+  border-radius: 10px;
+}
 
 /******************** 
     SECTION - CONTACT
@@ -140,27 +143,41 @@
 /******************** 
     MEDIA QUERY
 *********************/
-.mx-auto {
-  margin-right: auto !important;
-  margin-left: auto !important;
-}
-
 @media (max-width: 576px) {
-  .mob-details {
+  .main h1 {
+    text-align: center;
+  }
+  .main h1 .title-wrap-1 {
+    font-size: 0.6em;
+  }
+  .main h1 .title-wrap-2 {
+    font-size: 0.6em;
+  }
+  .main .mob-main {
     flex-direction: column;
   }
-  .mob-details .video {
+  .main .mob-main .video {
     width: 100%;
   }
-  .our-team-end {
+  .our-team .content .video {
+    width: 100%;
+  }
+  .our-team .our-team-end {
     flex-direction: column;
   }
-  .our-team-end .fix-end {
+  .our-team .our-team-end .fix-end {
     display: flex;
     justify-content: center;
     text-align: center !important;
   }
+  .our-services .video {
+    width: 100%;
+  }
   .contact .mb-contact {
     flex-direction: column;
   }
+}
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
 }/*# sourceMappingURL=style.css.map */
