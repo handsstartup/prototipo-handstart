@@ -8,21 +8,21 @@
   background-repeat: no-repeat;
   background-position: top;
 }
-.header .main .title-wrap-1 {
+.header main .title-wrap-1 {
   background-color: #ffffff;
   border-radius: 10px;
   line-height: 1.8em;
   padding: 0 5px;
 }
-.header .main .title-wrap-2 {
+.header main .title-wrap-2 {
   background-color: #ffffff;
   border-radius: 10px;
   padding: 0 5px;
 }
-.header .main .video {
+.header main .video {
   border-radius: 10px;
 }
-.header .main p {
+.header main p {
   font-weight: 500;
   text-align: justify;
 }
@@ -56,16 +56,6 @@
 .our-team .member {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-.our-team .member span {
-  height: 2.6em;
-  display: flex;
-  align-items: center;
-}
-.our-team .member .linkedin {
-  height: 2.6em;
-  display: flex;
   align-items: center;
 }
 .our-team .our-team-end {
@@ -119,47 +109,35 @@
   text-align: justify;
   font-weight: 700;
 }
-.contact form {
-  display: flex;
-  flex-direction: column;
-}
-.contact .field {
-  margin: 0.5rem 0;
-  display: flex;
-  justify-content: flex-start;
-}
-.contact .field input {
-  width: 100%;
-}
-.contact .field label {
-  text-align: justify;
-}
-.contact .field #check {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px;
+.contact .button {
+  text-decoration: none;
+  background-color: transparent;
+  color: #1d1d1b;
+  padding: 15px 15px;
+  border: 1px solid #1d1d1b;
+  font-weight: 700;
 }
 
 /******************** 
     MEDIA QUERY
 *********************/
 @media (max-width: 576px) {
-  .main h1 {
+  main h1 {
     text-align: center;
   }
-  .main h1 .title-wrap-1 {
+  main h1 .title-wrap-1 {
     font-size: 0.6em;
   }
-  .main h1 .title-wrap-2 {
+  main h1 .title-wrap-2 {
     font-size: 0.6em;
   }
-  .main .mob-main {
+  main .mob-main {
     flex-direction: column;
   }
-  .main .mob-main .video {
+  main .mob-main .video {
     width: 100%;
   }
-  .main .mob-main h1 {
+  main .mob-main h1 {
     font-size: 32px;
   }
   .our-team .content .video {
@@ -175,9 +153,6 @@
   }
   .our-services .video {
     width: 100%;
-  }
-  .contact .mb-contact {
-    flex-direction: column;
   }
 }
 .mx-auto {
