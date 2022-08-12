@@ -9,7 +9,7 @@ $bg-black: $color-black;
 $bg-white: $color-white;
 
 /******************** 
-    HEADER - MAIN
+        HEADER
 *********************/
 .header {
   background-image: url("/app/assets/images/capa.webp");
@@ -46,7 +46,7 @@ $bg-white: $color-white;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  
+
   padding: 3rem 0;
   .title {
     letter-spacing: 10px;
@@ -124,16 +124,36 @@ $bg-white: $color-white;
   background-repeat: no-repeat;
   background-position: top;
   padding: 3rem 0;
-  p {
-    text-align: justify;
-    font-weight: 700;
+  .content {
+    height: 30vh;
+    p {
+      text-align: justify;
+      font-weight: 600;
+      font-size: 1.1em;
+    }
+    .button {
+      text-decoration: none;
+      background-color: transparent;
+      color: $color-black;
+      padding: 15px 15px;
+      border: 1px solid $color-black;
+      font-weight: 700;
+      font-size: 20px;
+    }
   }
-  .button {
-    text-decoration: none;
-    background-color: transparent;
-    color: $color-black;
-    padding: 15px 15px;
-    border: 1px solid $color-black;
+}
+
+/******************** 
+        FOOTER
+*********************/
+
+footer {
+  background-image: url("/app/assets/images/fundo-others.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 3rem 0;
+  p {
     font-weight: 700;
   }
 }

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 /******************** 
-    HEADER - MAIN
+        HEADER
 *********************/
 .header {
   background-image: url("/app/assets/images/capa.webp");
@@ -111,16 +111,35 @@
   background-position: top;
   padding: 3rem 0;
 }
-.contact p {
-  text-align: justify;
-  font-weight: 700;
+.contact .content {
+  height: 30vh;
 }
-.contact .button {
+.contact .content p {
+  text-align: justify;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.contact .content .button {
   text-decoration: none;
   background-color: transparent;
   color: #1d1d1b;
   padding: 15px 15px;
   border: 1px solid #1d1d1b;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/******************** 
+        FOOTER
+*********************/
+footer {
+  background-image: url("/app/assets/images/fundo-others.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 3rem 0;
+}
+footer p {
   font-weight: 700;
 }
 
