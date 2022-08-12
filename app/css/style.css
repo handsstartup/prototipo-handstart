@@ -31,7 +31,10 @@
     SECTION - TEAM
 *********************/
 .our-team {
-  background-color: #fab728;
+  background-image: url("/app/assets/images/fundo-others.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
   padding: 3rem 0;
 }
 .our-team .title {
@@ -102,7 +105,10 @@
     SECTION - CONTACT
 *********************/
 .contact {
-  background-color: #fab728;
+  background-image: url("/app/assets/images/fundo-others.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
   padding: 3rem 0;
 }
 .contact p {

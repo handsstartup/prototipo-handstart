@@ -16,21 +16,6 @@ $bg-white: $color-white;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  // height: calc(120vh);
-  // .proposal {
-  //   // height: 40vh;
-  //   .title-wrap-1 {
-  //     background-color: $color-white;
-  //     border-radius: 10px;
-  //     line-height: 1.8em;
-  //     padding: 0 5px;
-  //   }
-  //   .title-wrap-2 {
-  //     background-color: $color-white;
-  //     border-radius: 10px;
-  //     padding: 0 5px;
-  //   }
-  // }
   main {
     .title-wrap-1 {
       background-color: $color-white;
@@ -57,7 +42,11 @@ $bg-white: $color-white;
     SECTION - TEAM
 *********************/
 .our-team {
-  background-color: $bg-yellow;
+  background-image: url("/app/assets/images/fundo-others.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  
   padding: 3rem 0;
   .title {
     letter-spacing: 10px;
@@ -130,7 +119,10 @@ $bg-white: $color-white;
     SECTION - CONTACT
 *********************/
 .contact {
-  background-color: $bg-yellow;
+  background-image: url("/app/assets/images/fundo-others.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
   padding: 3rem 0;
   p {
     text-align: justify;
