@@ -184,6 +184,9 @@ footer {
   }
 
   .our-team {
+    .desktop {
+      display: none;
+    }
     .content {
       .video {
         width: 100%;
@@ -200,6 +203,9 @@ footer {
   }
 
   .our-services {
+    .desktop {
+      display: none;
+    }
     .video {
       width: 100%;
     }
