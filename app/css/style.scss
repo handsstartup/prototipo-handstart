@@ -59,8 +59,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-
   padding: 3rem 0;
+  // .mobile {
+  //   display: none;
+  // }
   .title {
     letter-spacing: 10px;
     margin-bottom: 2rem;
@@ -159,7 +161,6 @@ body {
 /******************** 
         FOOTER
 *********************/
-
 footer {
   background-image: url("/app/assets/images/fundo-others.webp");
   background-size: cover;
@@ -238,6 +239,11 @@ footer {
   }
 }
 
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
 // Large devices (desktops, 992px and up)
 @media (max-width: 992px) {
 }
@@ -248,9 +254,4 @@ footer {
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (max-width: 1400px) {
-}
-
-.mx-auto {
-  margin-right: auto !important;
-  margin-left: auto !important;
 }
