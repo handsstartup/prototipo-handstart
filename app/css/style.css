@@ -70,7 +70,7 @@ body {
 .our-team .content .video {
   border-radius: 10px;
 }
-.our-team .fatores .icon {
+.our-team .factors .icon {
   width: 200px;
 }
 .our-team .member {
@@ -194,6 +194,13 @@ footer p {
   main .mob-main p {
     font-size: 1.4em;
   }
+  .our-team .desktop {
+    display: none;
+  }
+  .our-team .mob-role {
+    display: flex;
+    flex-direction: column;
+  }
   .our-team .content .video {
     width: 100%;
   }
@@ -205,7 +212,17 @@ footer p {
     justify-content: center;
     text-align: center !important;
   }
+  .our-services .desktop {
+    display: none;
+  }
   .our-services .video {
     width: 100%;
   }
-}/*# sourceMappingURL=style.css.map */
+
+@media (min-width: 576px) {
+  .our-team .mobile {
+    display: none;
+  }
+  .our-services .mobile {
+    display: none;
+  }

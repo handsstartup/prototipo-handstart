@@ -63,7 +63,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-
   padding: 3rem 0;
   .title {
     letter-spacing: 10px;
@@ -81,7 +80,7 @@ body {
       border-radius: 10px;
     }
   }
-  .fatores {
+  .factors {
     .icon {
       width: 200px;
     }
@@ -162,7 +161,6 @@ body {
 /******************** 
         FOOTER
 *********************/
-
 footer {
   background-image: url("/app/assets/images/fundo-others.webp");
   background-size: cover;
@@ -216,6 +214,13 @@ footer {
   }
 
   .our-team {
+    .desktop {
+      display: none;
+    }
+    .mob-role {
+      display: flex;
+      flex-direction: column;
+    }
     .content {
       .video {
         width: 100%;
@@ -232,8 +237,23 @@ footer {
   }
 
   .our-services {
+    .desktop {
+      display: none;
+    }
     .video {
       width: 100%;
     }
   }
-}
+
+@media (min-width: 576px) {
+  .our-team {
+    .mobile  {
+      display: none;
+    }
+  }
+
+  .our-services {
+    .mobile  {
+      display: none;
+    }
+  }
