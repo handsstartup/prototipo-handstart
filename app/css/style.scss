@@ -60,9 +60,6 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   padding: 3rem 0;
-  // .mobile {
-  //   display: none;
-  // }
   .title {
     letter-spacing: 10px;
     margin-bottom: 2rem;
@@ -79,7 +76,7 @@ body {
       border-radius: 10px;
     }
   }
-  .fatores {
+  .factors {
     .icon {
       width: 200px;
     }
@@ -214,6 +211,10 @@ footer {
     .desktop {
       display: none;
     }
+    .mob-role {
+      display: flex;
+      flex-direction: column;
+    }
     .content {
       .video {
         width: 100%;
@@ -254,4 +255,18 @@ footer {
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (max-width: 1400px) {
+}
+
+@media (min-width: 576px) {
+  .our-team {
+    .mobile  {
+      display: none;
+    }
+  }
+
+  .our-services {
+    .mobile  {
+      display: none;
+    }
+  }
 }

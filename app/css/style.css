@@ -66,7 +66,7 @@ body {
 .our-team .content .video {
   border-radius: 10px;
 }
-.our-team .fatores .icon {
+.our-team .factors .icon {
   width: 200px;
 }
 .our-team .member {
@@ -191,6 +191,10 @@ footer p {
   .our-team .desktop {
     display: none;
   }
+  .our-team .mob-role {
+    display: flex;
+    flex-direction: column;
+  }
   .our-team .content .video {
     width: 100%;
   }
@@ -212,4 +216,13 @@ footer p {
 .mx-auto {
   margin-right: auto !important;
   margin-left: auto !important;
+}
+
+@media (min-width: 576px) {
+  .our-team .mobile {
+    display: none;
+  }
+  .our-services .mobile {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
