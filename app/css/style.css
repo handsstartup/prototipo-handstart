@@ -218,7 +218,7 @@ footer p {
   .our-services .video {
     width: 100%;
   }
-
+}
 @media (min-width: 576px) {
   .our-team .mobile {
     display: none;
@@ -226,3 +226,4 @@ footer p {
   .our-services .mobile {
     display: none;
   }
+}/*# sourceMappingURL=style.css.map */

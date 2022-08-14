@@ -245,15 +245,18 @@ footer {
     }
   }
 
+}
+
 @media (min-width: 576px) {
   .our-team {
-    .mobile  {
+    .mobile {
       display: none;
     }
   }
 
   .our-services {
-    .mobile  {
+    .mobile {
       display: none;
     }
   }
+}
