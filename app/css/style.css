@@ -6,13 +6,13 @@ body {
 /******************** 
         HEADER
 *********************/
-.header {
+header {
   background-image: url("/app/assets/images/capa.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
 }
-.header .button {
+header .button {
   text-decoration: none;
   background-color: transparent;
   color: #1d1d1b;
@@ -21,24 +21,24 @@ body {
   font-weight: 700;
   margin-right: 1em;
 }
-.header main .title-wrap-1 {
+header main .title-wrap-1 {
   background-color: #ffffff;
   border-radius: 10px;
   line-height: 1.8em;
   padding: 0 5px;
 }
-.header main .title-wrap-2 {
+header main .title-wrap-2 {
   background-color: #ffffff;
   border-radius: 10px;
   padding: 0 5px;
 }
-.header main .video {
+header main .video {
   border-radius: 10px;
 }
-.header main h1 {
+header main h1 {
   font-size: 1.8em;
 }
-.header main p {
+header main p {
   font-weight: 500;
   text-align: justify;
   font-size: 1.8em;
@@ -58,10 +58,6 @@ body {
   letter-spacing: 10px;
   margin-bottom: 2rem;
 }
-.our-team .personal {
-  width: 10em;
-  border-radius: 50%;
-}
 .our-team .content {
   font-weight: 700;
   font-size: 26px;
@@ -69,9 +65,6 @@ body {
 }
 .our-team .content .video {
   border-radius: 10px;
-}
-.our-team .factors .icon {
-  width: 200px;
 }
 .our-team .member {
   display: flex;
@@ -85,9 +78,6 @@ body {
 .our-team .our-team-end .reduce {
   max-width: 240px;
   margin: 1rem 0;
-}
-.our-team .our-team-end .reduce img {
-  width: 200px;
 }
 .our-team .our-team-end .text--right {
   width: 205px;
@@ -109,9 +99,6 @@ body {
 .our-services .title {
   letter-spacing: 10px;
   margin-bottom: 2rem;
-}
-.our-services img {
-  width: 200px;
 }
 .our-services .video {
   border-radius: 10px;
@@ -162,8 +149,8 @@ footer p {
 /******************** 
     MEDIA QUERY
 *********************/
-@media (max-width: 576px) {
-  .header .button {
+@media (max-width: 1199.98px) {
+  header .button {
     text-decoration: none;
     background-color: transparent;
     color: #1d1d1b;
@@ -215,11 +202,8 @@ footer p {
   .our-services .desktop {
     display: none;
   }
-  .our-services .video {
-    width: 100%;
-  }
 }
-@media (min-width: 576px) {
+@media (min-width: 1199.98px) {
   .our-team .mobile {
     display: none;
   }
