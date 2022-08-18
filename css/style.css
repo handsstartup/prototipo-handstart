@@ -7,7 +7,7 @@ body {
         HEADER
 *********************/
 header {
-  background-image: url("/app/assets/images/capa.webp");
+  background-image: url("/images/capa.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -48,7 +48,7 @@ header main p {
     SECTION - TEAM
 *********************/
 .our-team {
-  background-image: url("/app/assets/images/fundo-others.webp");
+  background-image: url("/images/fundo-others.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -108,7 +108,7 @@ header main p {
     SECTION - CONTACT
 *********************/
 .contact {
-  background-image: url("/app/assets/images/fundo-others.webp");
+  background-image: url("/images/fundo-others.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -136,7 +136,7 @@ header main p {
         FOOTER
 *********************/
 footer {
-  background-image: url("/app/assets/images/fundo-others.webp");
+  background-image: url("/images/fundo-others.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
