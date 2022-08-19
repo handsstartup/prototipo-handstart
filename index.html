@@ -25,12 +25,7 @@
       <nav class="navbar navbar-expand-xl navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img
-              src="images/logo.webp"
-              alt="logo"
-              width="200"
-              height="152"
-            />
+            <img src="images/logo.webp" alt="logo" width="200" height="152" />
           </a>
           <button
             class="navbar-toggler"
@@ -584,53 +579,67 @@
 
     <!-- SECTION CONTACT -->
     <section
-      id="contact"
       class="contact d-flex justify-content-center align-items-center text-center"
     >
       <div class="container">
-        <article
-          class="content d-flex justify-content-center align-items-center flex-column"
-        >
-          <h2 class="title"><strong>Entre em contato</strong></h2>
-          <p class="text-center my-5">
-            Ao deixar seus dados no formuário, nossa equipe entrará em contato
-            para confirmar a sua inscrição e informar mais detalhes sobre o
-            curso.
-          </p>
-
-          <a
-            class="button"
-            href="https://forms.gle/EDMhYKw4y848JN8u6"
-            target="_blank"
-          >
-            Abrir formulário
-          </a>
-        </article>
+        <div class="row mb-contact">
+          <div class="col">
+            <p>
+              Ao deixar seus dados no formuário, nossa equipe entrará em contato
+              para confirmar a sua inscrição e informar mais detalhes sobre o
+              curso.
+            </p>
+            <h2 class="title text-start">Formulário de contato</h2>
+            <form action="">
+              <div class="field">
+                <input type="text" placeholder="Seu nome" />
+              </div>
+              <div class="field">
+                <input type="text" placeholder="Seu e-mail" />
+              </div>
+              <div class="field">
+                <input type="text" placeholder="Celular" />
+              </div>
+              <div class="field">
+                <input type="text" placeholder="Cidade" />
+              </div>
+              <div class="field">
+                <input type="text" placeholder="Estado" />
+              </div>
+              <div class="field">
+                <input type="text" placeholder="LinkedIn" />
+              </div>
+              <div class="field">
+                <input type="text" placeholder="11 + 6 = ?" />
+              </div>
+              <div class="field">
+                <input class="check" type="checkbox" />
+                <label
+                  >Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged.
+                </label>
+              </div>
+              <div class="field d-flex justify-content-center">
+                <button type="button" class="btn btn-dark">
+                  Quero conhecer mais
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col d-flex justify-content-center align-items-center">
+            <p class="fs-2 text-center">
+              Fale com a gente<br />
+              nas redes
+            </p>
+          </div>
+        </div>
       </div>
     </section>
-
-    <!-- FOOTER -->
-    <footer class="d-flex align-items-center flex-column">
-      <p>&copy; Todos os Direitos Reservados.</p>
-      <article class="social-icons my-3">
-        <div class="col">
-          <a class="px-2" href="https://instagram.com/handsstartup"
-            ><img
-              src="images/social-network/instagram.webp"
-              width="30"
-              height="30"
-              alt="instagram"
-          /></a>
-          <a class="px-2" href="https://www.linkedin.com/company/handsstartup/"
-            ><img
-              src="images/social-network/linkedin.webp"
-              width="30"
-              height="30"
-              alt="linkedin"
-          /></a>
-        </div>
-      </article>
-    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

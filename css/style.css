@@ -108,42 +108,36 @@ header main p {
     SECTION - CONTACT
 *********************/
 .contact {
-  background-image: url("/images/fundo-others.webp");
+  background-image: url("/app/assets/images/fundo-others.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  background-color: #fab728;
   padding: 3rem 0;
 }
-.contact .content {
-  height: 40vh;
-}
-.contact .content p {
+.contact p {
   text-align: justify;
-  font-weight: 600;
-  font-size: 1.1em;
-}
-.contact .content .button {
-  text-decoration: none;
-  background-color: transparent;
-  color: #1d1d1b;
-  padding: 15px 15px;
-  border: 1px solid #1d1d1b;
   font-weight: 700;
-  font-size: 20px;
 }
-
-/******************** 
-        FOOTER
-*********************/
-footer {
-  background-image: url("/images/fundo-others.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  padding: 3rem 0;
+.contact form {
+  display: flex;
+  flex-direction: column;
 }
-footer p {
-  font-weight: 700;
+.contact .field {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.contact .field input {
+  width: 100%;
+}
+.contact .field label {
+  text-align: justify;
+}
+.contact .field .check {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 
 /******************** 
@@ -201,6 +195,9 @@ footer p {
   }
   .our-services .desktop {
     display: none;
+  }
+  .contact .mb-contact {
+    flex-direction: column;
   }
 }
 @media (min-width: 1199.98px) {

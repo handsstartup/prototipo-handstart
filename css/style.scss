@@ -119,42 +119,37 @@ header {
     SECTION - CONTACT
 *********************/
 .contact {
-  background-image: url("/images/fundo-others.webp");
+  background-image: url("/app/assets/images/fundo-others.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  padding: 3rem 0;
-  .content {
-    height: 40vh;
-    p {
-      text-align: justify;
-      font-weight: 600;
-      font-size: 1.1em;
-    }
-    .button {
-      text-decoration: none;
-      background-color: transparent;
-      color: $color-black;
-      padding: 15px 15px;
-      border: 1px solid $color-black;
-      font-weight: 700;
-      font-size: 20px;
-    }
-  }
-}
-
-/******************** 
-        FOOTER
-*********************/
-footer {
-  background-image: url("/images/fundo-others.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+  background-color: $bg-yellow;
   padding: 3rem 0;
   p {
+    text-align: justify;
     font-weight: 700;
   }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  .field {
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: flex-start;
+    input {
+      width: 100%;
+    }
+    label {
+      text-align: justify;
+    }
+    .check {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+  
+}
 }
 
 /******************** 
@@ -224,6 +219,12 @@ footer {
   .our-services {
     .desktop {
       display: none;
+    }
+  }
+
+  .contact {
+    .mb-contact {
+      flex-direction: column;
     }
   }
 
